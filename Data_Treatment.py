@@ -13,7 +13,7 @@ def normalize(original_data):
   df2 = original_data[['Time(s)','Class', 'PathOrder']].copy()
   data_new = data_std.join(df2)
   data_new.to_csv("data_normalized.csv")
-  return data_new
+  return data_new 
 
 # Chamando função de normalização
 data_normalized = normalize(original_data)
