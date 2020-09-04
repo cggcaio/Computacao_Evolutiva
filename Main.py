@@ -4,3 +4,4 @@ from Population import createIndividual # Importando a função que cria a popul
 populacao = createIndividual()
 
 result = fitness(populacao)
+
