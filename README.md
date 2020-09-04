@@ -5,11 +5,13 @@ Repositório criado para a disciplina BCC461 - Computação Evolutiva
 O objetivo do trabalho é criar um Algoritmo Genético capaz de otimizar a quantidade de Features necessárias para classificar um motorista. 
 
 ## Estrutura do Repositório
-### Principal
-No arquivo [Main.py](https://github.com/cggcaio/Computacao_Evolutiva/blob/master/Main.py) são chamadas todas as funções do projeto. 
-### Tratamento do Dataset
-No arquivo [Data_Treatment.py](https://github.com/cggcaio/Computacao_Evolutiva/blob/master/Data_Treatment.py) é normalizado o Dataset e gerado um arquivo .csv.
+### Avaliação
+[Evaluation.py](https://github.com/cggcaio/Computacao_Evolutiva/blob/master/Evaluation.py): Treinar o modelo (Decision Tree) e avaliar o desempenho de cada indivíduo da população.
+### Mutação e Crossover
+[Mutation_and_Crossover.py](https://github.com/cggcaio/Computacao_Evolutiva/blob/master/Mutation_and_Crossover.py): Definir os pais e realizar Mutação ou Crossover na população.
 ### População
 [Population.py](https://github.com/cggcaio/Computacao_Evolutiva/blob/master/Population.py): Escolher o tamanho e gerar a população. 
-### Gerando o modelo de classificação e primeiros indivíduos da população
-No arquivo [Soluction_Features_Class.py](https://github.com/cggcaio/Computacao_Evolutiva/blob/master/Soluction_Features_Class.py) é desenvolvido o modelo de regressão (Decision Tree) e são gerados os primeiros indíviduos que são testados no modelo de classificação.
+### Principal
+[Main.py](https://github.com/cggcaio/Computacao_Evolutiva/blob/master/Main.py): Arquivo executável para chamar todas as funções do projeto. 
+### Tratamento do Dataset
+[Data_Treatment.py](https://github.com/cggcaio/Computacao_Evolutiva/blob/master/Data_Treatment.py): Normalizar o Dataset e gerar um arquivo .csv.
